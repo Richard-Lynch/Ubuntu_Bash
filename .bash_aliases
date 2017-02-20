@@ -91,7 +91,7 @@ alias sbu="source ~/.bashrc"  #sources bash without pushing to git and stuff
 #---------------------GIT---------------------
 # git merge Feature-A   //merges Feature-A branch with master branch
 # this will not require any commits, but will require a push to the remote
-# git branch -d con   //will delete the con branch
+# git branch -d con   //will delete the con lsabranch
 # git brnach -l         //will list the local branches
 # git push --set-upstream origin test       //create upstream branch of test on remote
 
