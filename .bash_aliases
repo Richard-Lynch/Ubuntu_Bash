@@ -36,9 +36,9 @@ alias cloud="ssh -R 2210:localhost:22 richie@199.19.226.161"
 
 #---------------------PREFERED COMMANDS---------------------
 # list files
-alias ls="ls -FG"  #lists file with color and annotation
-alias lsa="ls -FGA"	#lists all including hidden colors etc
-alias lsal="ls -FGlAhp" #lists as above + permissions
+alias ls="ls --color=auto -FG"  #lists file with color and annotation
+alias lsa="ls -A"	#lists all including hidden colors etc
+alias lsal="ls -lAh" #lists as above + permissions
 
 # files
 alias cd="cd -P"
