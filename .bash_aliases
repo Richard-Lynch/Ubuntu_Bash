@@ -87,6 +87,19 @@ sb () {                                                         # refresh and ba
     }
 alias sbu="source ~/.bashrc"  #sources bash without pushing to git and stuff
 
+# apt-get SHORTCUTS
+get () {                                
+    sudo apt-get install "$1"           ;
+}
+
+getup () {
+    getupgrade                          ;
+    get "$1"                            ;
+}
+
+alias getupgrade="sudo apt-get update & sudo apt-get upgrade"
+
+
 
 #---------------------GIT---------------------
 # git merge Feature-A   //merges Feature-A branch with master branch
