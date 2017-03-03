@@ -92,12 +92,12 @@ get () {
     sudo apt-get install "$1"           ;
 }
 
-getup () {
+upget () {
     getupgrade                          ;
     get "$1"                            ;
 }
 
-alias getupgrade="sudo apt-get update && sudo apt-get upgrade"
+alias getup="sudo apt-get update && sudo apt-get upgrade"
 
 
 
