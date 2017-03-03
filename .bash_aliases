@@ -97,7 +97,7 @@ getup () {
     get "$1"                            ;
 }
 
-alias getupgrade="sudo apt-get update & sudo apt-get upgrade"
+alias getupgrade="sudo apt-get update && sudo apt-get upgrade"
 
 
 
