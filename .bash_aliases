@@ -30,6 +30,9 @@ alias b="(cd && code .bash_aliases)"					# opens bash profile
 alias p="cd ~/Programs && lsa"		# navigates to programs folder and lists files using lsa
 alias ht="sudo htop"                                    # opens a better top
 alias cloud="ssh -R 2210:localhost:22 richie@199.19.226.161"
+alias google="~/scripts/searchGoogle.sh"
+alias wiki="~/scripts/searchWiki.sh"
+
 # hidden files
 # alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 # alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
