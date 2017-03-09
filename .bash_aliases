@@ -33,14 +33,14 @@ alias cloud="ssh -R 2210:localhost:22 richie@199.19.226.161"
 alias google="~/scripts/searchGoogle.sh"
 alias wiki="~/scripts/searchWiki.sh"
 alias matrix="cmatrix -abu 2"
-
+alias tk="tmux kill-session"
 # hidden files
 # alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 # alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 #---------------------PREFERED COMMANDS---------------------
 # list files
-alias ls="ls --color=auto -FG"  #lists file with color and annotation
+alias ls="ls -I *.sh~ --color=auto -FG"  #lists file with color and annotation
 alias lsa="ls -A"	#lists all including hidden colors etc
 alias lsal="ls -lAh" #lists as above + permissions
 
