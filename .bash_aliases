@@ -26,7 +26,8 @@ alias cpuinfo="cat /proc/cpuinfo | grep 'model name' | uniq"
 # alias s="/Users/Richard/GoogleDrive/Documents/College/Eng_2016-2017/shell/script.sh"
 
 #---------------------SHORTCUTS---------------------
-alias b="(cd && vim .bash_aliases)"					# opens bash profile
+alias b="(cd && vim .bash_aliases)"					# opens bash profileb
+alias codeb="(cd && code .bash_aliases)"	
 alias p="cd ~/Programs && lsa"		# navigates to programs folder and lists files using lsa
 alias s="~/scripts/startScriptSession.sh startScriptSession.sh"                              # opens the start script session
 alias ht="sudo htop"                                    # opens a better top
