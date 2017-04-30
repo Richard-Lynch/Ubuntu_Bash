@@ -15,7 +15,7 @@ export PS1="\[${bold}\]\u @ \w \[${reset}\]" # super small
 
 
 #---------------------TEMP---------------------
-
+alias cpuinfo="cat /proc/cpuinfo | grep 'model name' | uniq"
 
 #---------------------Utilities---------------------
 
@@ -28,13 +28,20 @@ export PS1="\[${bold}\]\u @ \w \[${reset}\]" # super small
 #---------------------SHORTCUTS---------------------
 alias b="(cd && vim .bash_aliases)"					# opens bash profile
 alias p="cd ~/Programs && lsa"		# navigates to programs folder and lists files using lsa
+alias s="~/scripts/startScriptSession.sh startScriptSession.sh"                              # opens the start script session
 alias ht="sudo htop"                                    # opens a better top
 alias cloud="ssh -R 2210:localhost:22 richie@199.19.226.161"
 alias google="~/scripts/searchGoogle.sh"
 alias wiki="~/scripts/searchWiki.sh"
 alias matrix="cmatrix -abu 2"
+
+#---------------------TMUX-------------------------
+alias stmux="~/scripts/startTmuxSession.sh"
+alias scmux="~/scripts/startScriptSession.sh"
 alias tk="tmux kill-session"
 # hidden files
+
+
 # alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 # alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
