@@ -7,8 +7,9 @@
 #---------------------Style of Terminal---------------------
 bold=$(tput bold)
 line=$(tput setab 0)
+col=$(tput setaf 46)
 reset=$(tput sgr0)
-export PS1="\[${bold}\]\u @ \w \[${reset}\]" # super small
+export PS1="\[${bold}\]\[${col}\]\u @ \w \[${reset}\]" # super small
 # ok so the \[ and \] around the bold and reset, basically tell absh that these values have size 0,so it doesnt 
 # grab random old commands and append them on to your PS1 when searching through history
 # export PS1="${bold}\w ${reset}" # super small
