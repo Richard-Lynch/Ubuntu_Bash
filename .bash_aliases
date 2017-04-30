@@ -36,6 +36,7 @@ alias cloud="ssh -R 2210:localhost:22 richie@199.19.226.161"
 alias google="~/scripts/searchGoogle.sh"
 alias wiki="~/scripts/searchWiki.sh"
 alias matrix="cmatrix -abu 2"
+alias screen="~/.Sc.sh"
 
 #---------------------TMUX-------------------------
 alias stmux="~/scripts/startTmuxSession.sh"
